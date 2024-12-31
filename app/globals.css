@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/*:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -18,4 +18,18 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}*/
+
+@font-face {
+  font-family: trenda;
+  src: url("../public/trenda-webfont/Latinotype\ \ Trenda\ Regular.woff");
 }
+
+body{
+  font-family: trenda;
+}
+
+*{
+  font-family: trenda;
+}
+
