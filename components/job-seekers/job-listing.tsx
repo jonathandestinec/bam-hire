@@ -15,7 +15,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
-
+import { motion } from 'framer-motion'
 interface Job {
     id: number;
     title: string;
@@ -229,8 +229,24 @@ export function JobListings() {
             </div>
 
             <div className="grid gap-6">
-                {jobs.map((job) => (
-                    <div
+                {jobs.map((job, index) => (
+                    <motion.div
+                    initial={{
+                        x:100,
+                        opacity:0
+                      }}
+                      whileInView={{
+                        x:0,
+                        opacity:1
+                      }}
+                      viewport={{
+                        once:true
+                      }}
+                      transition={{
+                        duration:0.7,
+                        ease:"backInOut",
+                        delay: 0.05 * index
+                      }}
                         key={job.id}
                         className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border border-gray-100"
                     >
@@ -364,7 +380,7 @@ export function JobListings() {
                                 </DialogContent>
                             </Dialog>
                         </div>
-                    </div>
+                    </motion.div>
                 ))}
             </div>
 
