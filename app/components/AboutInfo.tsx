@@ -54,7 +54,7 @@ function AboutInfo() {
               duration:0.7,
               ease:"easeInOut"
             }}
-        className='text-xl py-[20px]'>We’re dedicated to helping people achieve success every day, providing our clients with trusted solutions and our consultants with fulfilling career paths. Founded on the simple idea of serving friends, our tight-knit team operates with integrity, collaboration, and a passion for producing exceptional results that genuinely impact lives and careers.</motion.p>
+        className='text-xl py-[20px]'>We&aptos;..’re dedicated to helping people achieve success every day, providing our clients with trusted solutions and our consultants with fulfilling career paths. Founded on the simple idea of serving friends, our tight-knit team operates with integrity, collaboration, and a passion for producing exceptional results that genuinely impact lives and careers.</motion.p>
     </div>
   )
 }
