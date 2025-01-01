@@ -3,7 +3,6 @@
 import React ,{useState} from 'react'
 import { RiMenu3Line } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
-import { MdClose } from "react-icons/md";
 import { motion } from 'framer-motion';
 const JobSeekersMenu = ["Search Jobs", "In-House Team", "Consultants", "Be The Light Tour"]
 const AboutMenu = ["Who We Are", "Office Locations", "Our Impact"]
@@ -14,7 +13,7 @@ function Nav() {
     const [showAboutMenu, setShowAboutMenu] = useState(false)
     const [showMenu, setShowMenu] = useState(false)
   return (
-    <nav className='relative bg-[#00283c] text-white h-[100px]  flex items-center p-[15px] justify-between'>
+    <nav className='relative bg-[#00223a] text-white h-[80px] md:h-[100px]  flex items-center py-8 justify-between px-10 box-border'>
         <h1>Logo</h1>
         <ul className='hidden nav-ul:flex items-center justify-between  w-[50%]'>
             <a href="#"><li className='flex items-center cursor-pointer'>Home</li></a>
@@ -38,7 +37,7 @@ function Nav() {
         </ul>
         <div className="hidden nav-ul:block buttons  w-[fit-content] font-bold">
             <button className='mr-[10px]  p-[20px] w-[150px] rounded-[30px]'>Find a Job</button>
-            <button className='mr-[10px] p-[20px] w-[150px] bg-[#ffd602] text-black rounded-[30px]'>Hire Talent</button>
+            <button className='mr-[10px] p-[20px] py-3 w-[150px] bg-[#ffd602] text-black rounded-[30px]'>Hire Talent</button>
         </div>
         <RiMenu3Line onClick={()=>{setShowMenu(!showMenu)}} className='block nav-ul:hidden cursor-pointer text-xl'  />
         {
