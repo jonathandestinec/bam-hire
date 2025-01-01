@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import Image from 'next/image'
 
 export function Footer() {
   return (
@@ -10,33 +11,41 @@ export function Footer() {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <img src="/logo.svg" alt="BAM Hire Logo" className="h-8" />
+            <Link href="/">
+              <Image
+                src="/assets/logo.png"
+                alt="logo"
+                width={200}
+                height={200}
+                className="filter invert"
+              />
+            </Link>
             <p className="text-sm">
               Connecting exceptional talent with innovative companies since 2010.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="https://il.linkedin.com/company/wix-com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://il.linkedin.com/company/wix-com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors duration-300"
               >
                 <i className="fi fi-brands-linkedin text-xl flex items-center justify-center w-max h-max"></i>
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a 
-                href="https://www.facebook.com/wix" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.facebook.com/wix"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors duration-300"
               >
                 <i className="fi fi-brands-facebook text-xl flex items-center justify-center w-max h-max"></i>
                 <span className="sr-only">Facebook</span>
               </a>
-              <a 
-                href="https://www.twitter.com/wix" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.twitter.com/wix"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors duration-300"
               >
                 <i className="fi fi-brands-twitter text-xl flex items-center justify-center w-max h-max"></i>
@@ -44,7 +53,7 @@ export function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Services</h3>
             <ul className="space-y-2">
@@ -57,7 +66,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Company</h3>
             <ul className="space-y-2">
@@ -70,20 +79,20 @@ export function Footer() {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Stay Updated</h3>
             <p className="text-sm mb-4 text-gray-400">Subscribe to our newsletter for the latest industry insights and job opportunities.</p>
-                      <form onSubmit={(e) => {
-                          e.preventDefault()
-                      }} className="space-y-2">
-              <Input 
-                type="email" 
-                placeholder="Enter your email" 
+            <form onSubmit={(e) => {
+              e.preventDefault()
+            }} className="space-y-2">
+              <Input
+                type="email"
+                placeholder="Enter your email"
                 className="bg-gray-800 border-gray-700 text-white placeholder-gray-400 focus:border-blue-500"
               />
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-300"
               >
                 Subscribe
@@ -91,7 +100,7 @@ export function Footer() {
             </form>
           </div>
         </div>
-        
+
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} BAM Hire. All rights reserved.</p>
