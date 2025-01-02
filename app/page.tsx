@@ -145,9 +145,11 @@ const page = () => {
               duration: 0.7,
               ease: "easeInOut"
             }} className="w-full flex justify-center mt-8 sm:mt-16">
-            <button className="shadow-[inset_0_0_0_2px_black] text-black px-6 sm:px-10 py-3 rounded-full tracking-widest uppercase text-sm sm:text-base font-bold bg-transparent transition duration-200 hover:bg-black hover:text-white">
+           <a href="#services">
+           <button className="shadow-[inset_0_0_0_2px_black] text-black px-6 sm:px-10 py-3 rounded-full tracking-widest uppercase text-sm sm:text-base font-bold bg-transparent transition duration-200 hover:bg-black hover:text-white">
               See What We Offer
             </button>
+           </a>
           </motion.div>
 
           <div className="relative mt-12 sm:mt-16">
