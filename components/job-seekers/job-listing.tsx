@@ -231,22 +231,22 @@ export function JobListings() {
             <div className="grid gap-6">
                 {jobs.map((job, index) => (
                     <motion.div
-                    initial={{
-                        x:100,
-                        opacity:0
-                      }}
-                      whileInView={{
-                        x:0,
-                        opacity:1
-                      }}
-                      viewport={{
-                        once:true
-                      }}
-                      transition={{
-                        duration:0.7,
-                        ease:"backInOut",
-                        delay: 0.05 * index
-                      }}
+                        initial={{
+                            x: 100,
+                            opacity: 0
+                        }}
+                        whileInView={{
+                            x: 0,
+                            opacity: 1
+                        }}
+                        viewport={{
+                            once: true
+                        }}
+                        transition={{
+                            duration: 0.7,
+                            ease: "backInOut",
+                            delay: 0.05 * index
+                        }}
                         key={job.id}
                         className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border border-gray-100"
                     >

@@ -50,13 +50,19 @@ const page = () => {
             </h1>
 
             <div className="mt-8 sm:mt-10 w-full flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
-              <button className="shadow-[inset_0_0_0_2px_white] bg-white text-black px-12 w-max sm:px-8 md:w-max py-3 sm:py-4 rounded-full tracking-widest uppercase text-xs sm:text-sm font-bold transition duration-200 hover:bg-transparent hover:text-white">
-                Launch Your Career
-              </button>
+              <a href="/job-seekers">
+                <button className="shadow-[inset_0_0_0_2px_white] bg-white text-black px-12 w-max sm:px-8 md:w-max py-3 sm:py-4 rounded-full tracking-widest uppercase text-xs sm:text-sm font-bold transition duration-200 hover:bg-transparent hover:text-white">
+                  Launch Your Career
+                </button>
+              </a>
 
-              <button className="w-max shadow-[inset_0_0_0_2px_white] text-white px-12 sm:px-8 sm:w-max py-3 sm:py-4 rounded-full tracking-widest uppercase text-xs sm:text-sm font-bold bg-transparent transition duration-200 hover:bg-white hover:text-black">
-                Build Your Team
-              </button>
+              <a href="/contact">
+                <button className="w-max shadow-[inset_0_0_0_2px_white] text-white px-12 sm:px-8 sm:w-max py-3 sm:py-4 rounded-full tracking-widest uppercase text-xs sm:text-sm font-bold bg-transparent transition duration-200 hover:bg-white hover:text-black">
+                
+                  Build Your Team
+                </button>
+              </a>
+
             </div>
           </motion.div>
         </div>

@@ -23,14 +23,14 @@ function Nav() {
           className="filter invert"
         />
       </Link>
-      <ul className='hidden nav-ul:flex items-center justify-between  w-[50%]'>
+      <ul className='hidden nav-ul:flex items-center justify-center gap-24  w-[50%]'>
         <Link href="/"><li className='flex items-center cursor-pointer'>Home</li></Link>
-        <a href="/job-seekers"><li className='flex items-center cursor-pointer'>Job Seekers</li></a>
+
         <a href="/whoweare"><li className='flex items-center cursor-pointer' >About </li></a>
         <a href='/contact'><li className='flex items-center cursor-pointer'>Contact</li></a>
       </ul>
       <div className="hidden nav-ul:block buttons  w-[fit-content] font-bold">
-        <a href="/job-seekers"><button className='mr-[10px]  p-[20px] w-[150px] rounded-[30px]'>Find a Job</button></a>
+
         <a href="/job-seekers"><button className='mr-[10px] p-[20px] py-3 w-[150px] bg-[#ffd602] text-black rounded-[30px]'>Hire Talent</button></a>
       </div>
       {!showMenu ? <RiMenu3Line onClick={() => { setShowMenu(!showMenu) }} className='block nav-ul:hidden cursor-pointer text-xl' /> : <IoMdClose onClick={() => { setShowMenu(!showMenu) }} className='block nav-ul:hidden cursor-pointer text-xl' />}
