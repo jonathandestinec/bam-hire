@@ -70,13 +70,16 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Company</h3>
             <ul className="space-y-2">
-              {['About Us', 'Careers', 'Contact', 'Privacy Policy'].map((item) => (
-                <li key={item}>
-                  <Link href={`/${item.toLowerCase().replace(/\s+/g, '-')}`} className="text-gray-400 hover:text-white transition-colors duration-200">
+             
+                <li className='flex flex-col gap-4' >
+                  <Link href='/whoweare' className="text-gray-400 hover:text-white transition-colors duration-200">About Us</Link>
+                  <Link href='/contact' className="text-gray-400 hover:text-white transition-colors duration-200">Contact Us</Link>
+                  <Link href='/whoweare' className="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</Link>
+                  {/* <Link href={`/${item.toLowerCase().replace(/\s+/g, '-')}`} className="text-gray-400 hover:text-white transition-colors duration-200">
                     {item}
-                  </Link>
+                  </Link> */}
                 </li>
-              ))}
+             
             </ul>
           </div>
 
@@ -103,7 +106,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} BAM Hire. All rights reserved.</p>
+            <p className="text-sm text-gray-400">&copy; 2024 BAM Hire. All rights reserved.</p>
             <div className="flex space-x-6">
               <Link href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">
                 Terms of Service

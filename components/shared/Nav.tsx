@@ -31,7 +31,7 @@ function Nav() {
       </ul>
       <div className="hidden nav-ul:block buttons  w-[fit-content] font-bold">
 
-        <a href="/job-seekers"><button className='mr-[10px] p-[20px] py-3 w-[150px] bg-[#ffd602] text-black rounded-[30px]'>Hire Talent</button></a>
+        <a href="/job-seekers"><button className='mr-[10px] p-[20px] py-3 w-[150px] bg-[#ffd602] text-black rounded-[30px]'>Find a Job</button></a>
       </div>
       {!showMenu ? <RiMenu3Line onClick={() => { setShowMenu(!showMenu) }} className='block nav-ul:hidden cursor-pointer text-xl' /> : <IoMdClose onClick={() => { setShowMenu(!showMenu) }} className='block nav-ul:hidden cursor-pointer text-xl' />}
       <AnimatePresence>
@@ -59,7 +59,7 @@ function Nav() {
             className='absolute top-[100%] left-0 right-0 flex nav-ul:hidden bg-[#00283c] z-10 p-[15px]'>
             <ul className='w-full'>
               <Link href="/" onClick={() => { setShowMenu(false) }}><li className='flex items-center w-full justify-between mb-[20px] font-bold'>Home</li></Link>
-              <a href="/job-seekers" onClick={() => { setShowMenu(false) }}><li className='flex items-center w-full justify-between mb-[20px] font-bold'>Job Seekers</li></a>
+              <a href="/job-seekers" onClick={() => { setShowMenu(false) }}><li className='flex items-center w-full justify-between mb-[20px] font-bold'>Find a Job</li></a>
               <a href="/whoweare" onClick={() => { setShowMenu(false) }}><li className='flex items-center w-full justify-between mb-[20px] font-bold'>About</li></a>
               <a href="/contact" onClick={() => { setShowMenu(false) }}><li className='flex items-center w-full justify-between mb-[20px] font-bold'>Contact</li></a>
             </ul>
