@@ -186,6 +186,20 @@ nav{
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
+.emailsuccess{
+  background-color: #28a745;
+  z-index: 2001;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: fit-content;
+  position: fixed;
+  top: 25px;
+}
+
 @media(max-width:470px){
   .valuegrid{
     display: flex;
