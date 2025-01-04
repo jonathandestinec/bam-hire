@@ -59,7 +59,7 @@ export function Footer() {
             <ul className="space-y-2">
               {['Consulting', 'Direct Placement', 'Staff Augmentation', 'Contract to Hire'].map((service) => (
                 <li key={service}>
-                  <Link href={`/services/${service.toLowerCase().replace(/\s+/g, '-')}`} className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link href='' className="text-gray-400 hover:text-white transition-colors duration-200">
                     {service}
                   </Link>
                 </li>

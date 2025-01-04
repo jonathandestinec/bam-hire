@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 function AboutInfo() {
   return (
-    <div className='p-[20px] md:p-[50px] bg-white'>
+    <div className='text-center p-[20px] md:p-[50px] bg-white'>
       <motion.h1
         initial={{
           y: 100,
