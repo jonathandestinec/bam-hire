@@ -74,7 +74,7 @@ export function Footer() {
                 <li className='flex flex-col gap-4' >
                   <Link href='/whoweare' className="text-gray-400 hover:text-white transition-colors duration-200">About Us</Link>
                   <Link href='/contact' className="text-gray-400 hover:text-white transition-colors duration-200">Contact Us</Link>
-                  <Link href='/whoweare' className="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</Link>
+                  <Link href='/privacy' className="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</Link>
                   {/* <Link href={`/${item.toLowerCase().replace(/\s+/g, '-')}`} className="text-gray-400 hover:text-white transition-colors duration-200">
                     {item}
                   </Link> */}
