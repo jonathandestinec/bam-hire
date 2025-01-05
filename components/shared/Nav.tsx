@@ -13,7 +13,7 @@ const AboutMenu = [{ text: "Who We Are", link: "whoweare" }, { text: "Office Loc
 function Nav() {
   const [showMenu, setShowMenu] = useState(false)
   return (
-    <nav className='fixed shadow-md inset-0 bg-[#00283c] text-white h-[100px] md:px-20  flex items-center p-[15px] justify-between'>
+    <nav className='fixed shadow-md inset-0 bg-[#00283c] text-white h-[100px] md:px-20  flex items-center p-[15px] justify-between z-50'>
       <Link href="/" className='flex items-center'>
         {/*<Image
           src="/assets/logo.png"

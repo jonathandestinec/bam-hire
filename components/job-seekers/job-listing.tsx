@@ -386,7 +386,7 @@ export function JobListings() {
 
             {showPreview && (
                 <Dialog open={showPreview} onOpenChange={setShowPreview}>
-                    <DialogContent className=" h-screen max-w-2xl overflow-y-scroll z-50">
+                    <DialogContent className=" h-[80vh] md:h-screen max-w-2xl overflow-y-scroll z-[9000000000]">
                         <DialogHeader>
                             <DialogTitle>Application Preview</DialogTitle>
                         </DialogHeader>
