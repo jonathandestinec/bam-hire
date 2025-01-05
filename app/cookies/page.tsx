@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Page() {
     return (
-        <div className="max-w-4xl mx-auto p-6 text-white">
-            <h1 className="text-3xl font-bold text-center text-white mb-6">
+        <div className="bg-gray-900 text-gray-100 p-6 md:p-10 font-sans leading-relaxed">
+            <h1 className="text-4xl font-extrabold mb-6 text-teal-400">
                 Cookie Policy
             </h1>
             <p className="mb-4">
@@ -21,10 +21,10 @@ export default function Page() {
                 ), you consent to the use of cookies as described in this policy.
             </p>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">
+                <h2 className="text-2xl font-bold mb-4">
                     1. What Are Cookies?
                 </h2>
                 <p className="mb-4">
@@ -35,10 +35,10 @@ export default function Page() {
                 </p>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">
+                <h2 className="text-2xl font-bold mb-4">
                     2. Types of Cookies We Use
                 </h2>
                 <ul className="list-disc pl-6 space-y-2">
@@ -65,10 +65,10 @@ export default function Page() {
                 </ul>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">
+                <h2 className="text-2xl font-bold mb-4">
                     3. How We Use Cookies
                 </h2>
                 <ul className="list-disc pl-6 space-y-2">
@@ -81,10 +81,10 @@ export default function Page() {
                 </ul>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">
+                <h2 className="text-2xl font-bold mb-4">
                     4. Managing Your Cookie Preferences
                 </h2>
                 <p className="mb-4">
@@ -108,10 +108,10 @@ export default function Page() {
                 </ul>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">
+                <h2 className="text-2xl font-bold mb-4">
                     5. Third-Party Cookies
                 </h2>
                 <p className="mb-4">
@@ -121,10 +121,10 @@ export default function Page() {
                 </p>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">
+                <h2 className="text-2xl font-bold mb-4">
                     6. Updates to This Policy
                 </h2>
                 <p className="mb-4">
@@ -134,10 +134,10 @@ export default function Page() {
                 </p>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">
+                <h2 className="text-2xl font-bold mb-4">
                     7. Contact Us
                 </h2>
                 <p className="mb-4">
@@ -159,7 +159,7 @@ export default function Page() {
                 </p>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="border-gray-700 my-6" />
 
             <p className="text-center text-gray-600">
                 Thank you for choosing BAM. We are committed to providing you with a
