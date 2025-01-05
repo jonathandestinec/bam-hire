@@ -14,13 +14,27 @@ function Nav() {
   const [showMenu, setShowMenu] = useState(false)
   return (
     <nav className='fixed shadow-md inset-0 bg-[#00283c] text-white h-[100px] md:px-20  flex items-center p-[15px] justify-between'>
-      <Link href="/">
-        <Image
+      <Link className='flex items-center' href="/">
+        {/*<Image
           src="/assets/logo.png"
           alt="logo"
           width={200}
           height={200}
           className="filter invert"
+        />*/}
+        <Image
+         src="/images/logoleft.png"
+         alt="logo"
+         width={50}
+         height={50}
+         className='object-cover mt-[10px]'
+        />
+        <Image
+         src="/images/logoright.png"
+         alt="logo"
+         width={170}
+         height={170}
+         className='object-cover'
         />
       </Link>
       <ul className='hidden nav-ul:flex items-center justify-center gap-24  w-[50%]'>
