@@ -9,7 +9,7 @@ const page = () => {
 
       {/* HEader Section */}
 
-      <header className="hero w-full bg-[url(/images/hero.jpg)] bg-cover bg-center bg-no-repeat px-4 sm:px-8 lg:px-20 py-14 pb-32 flex flex-col items-center h-screen justify-center text-white mt-10 relative md:mt-0">
+      <header className="hero w-full bg-[url(/images/hero.jpg)] bg-cover bg-center bg-no-repeat px-4 sm:px-8 lg:px-20 py-14 pb-32 flex flex-col items-center md:h-[calc(100vh-100px)] h-[calc(70vh-100px)] justify-center text-white mt-10 relative md:mt-0">
         <div className="relative w-full max-w-6xl mx-auto">
 
           {/*<Image
