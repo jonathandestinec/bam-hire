@@ -9,16 +9,16 @@ const page = () => {
 
       {/* HEader Section */}
 
-      <header className="w-full px-4 sm:px-8 lg:px-20 py-14 pb-32 flex flex-col items-center h-screen justify-center text-white mt-10 relative md:mt-0">
+      <header className="hero w-full bg-[url(/images/hero.jpg)] bg-cover bg-center bg-no-repeat px-4 sm:px-8 lg:px-20 py-14 pb-32 flex flex-col items-center h-screen justify-center text-white mt-10 relative md:mt-0">
         <div className="relative w-full max-w-6xl mx-auto">
 
-          <Image
+          {/*<Image
             src="/assets/hero.svg"
             alt="Hero img"
             width={1000}
             height={1000}
             className="absolute inset-0 w-full h-full object-cover object-center z-0 filter blur-md"
-          />
+          />*/}
 
           <motion.div
             initial={{
@@ -70,7 +70,7 @@ const page = () => {
 
       {/* Services Section */}
 
-      <section className="w-full px-4 sm:px-8 lg:px-20 py-14 pb-0 text-black mt-10 relative bg-white services-section overflow-hidden">
+      <section className="w-full px-4 sm:px-8 lg:px-20 py-14 pb-0 text-black  relative bg-white services-section overflow-hidden">
         <div className="w-full relative max-w-7xl mx-auto pb-32 lg:pb-64">
           <motion.p
             initial={{
