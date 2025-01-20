@@ -23,18 +23,18 @@ function Nav() {
           className="filter invert"
         />*/}
         <Image
-         src="/images/logoleft.png"
-         alt="logo"
-         width={50}
-         height={50}
-         className='object-cover mt-[10px]'
+          src="/images/logoleft.png"
+          alt="logo"
+          width={50}
+          height={50}
+          className='object-cover mt-[10px]'
         />
         <Image
-         src="/images/logoright.png"
-         alt="logo"
-         width={170}
-         height={170}
-         className='object-cover'
+          src="/images/logoright.png"
+          alt="logo"
+          width={170}
+          height={170}
+          className='object-cover'
         />
       </Link>
       <ul className='hidden nav-ul:flex items-center justify-center gap-24  w-[50%]'>

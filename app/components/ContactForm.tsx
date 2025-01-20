@@ -10,8 +10,8 @@ function ContactForm() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_crul3od', 'template_125y7cp', form.current, {
-        publicKey: 'OjP361NdTqPPOtTSa',
+      .sendForm('service_crul3od', 'template_7ael15n', form.current, {
+        publicKey: 'gDw12hCfUkrSZXfbG',
       })
       .then(
         () => {
